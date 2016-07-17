@@ -1,0 +1,16 @@
+{
+  "name": "onepass",
+  "version": "1.0.0",
+  "description": "Retrieve passwords from 1Password",
+  "author": "Simon Bartlett <simon@sibartlett.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/sibartlett/onepass",
+  "repository": "git://github.com/sibartlett/onepass",
+  "main": "index.js",
+  "keywords": [
+    "1password"
+  ],
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}

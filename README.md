@@ -3,9 +3,14 @@
 Node.js library for communicating with 1Password and retrieving passwords.
 
 ```js
-const onepass = require('onepass')({
-  bundleId: 'com.github.sibartlett.onepass'
-});
+const onepass = require('onepass')();
+
+// Configure creds if you have them
+onepass.auth.credentials(creds);
+
+// Otherwise generate new creds
+creds = onepass.auth.generateCredentials();
+onepass.auth.credentials(creds);
 
 // Promise API
 onepass.password('http://example.com')

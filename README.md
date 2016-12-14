@@ -2,6 +2,8 @@
 
 Node.js library for communicating with 1Password and retrieving passwords.
 
+Note: You may need to set the [process title](https://nodejs.org/api/process.html#process_process_title).
+
 ```js
 const onepass = require('onepass')();
 
